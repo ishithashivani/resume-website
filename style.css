@@ -1,0 +1,57 @@
+/* Google Font */
+body {
+    font-family: 'Poppins', sans-serif;
+    background-color: #fefefe;
+    margin: 0;
+    padding: 0;
+    color: #333;
+  }
+  
+  /* Navbar */
+  .navbar {
+    background-color: #F5B041;
+    padding: 1rem 0;
+  }
+  .navbar ul {
+    display: flex;
+    justify-content: center;
+    gap: 2rem;
+    list-style: none;
+    padding: 0;
+    margin: 0;
+  }
+  .navbar a {
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+  }
+  
+  /* Header */
+  header {
+    text-align: center;
+    padding: 2rem;
+    background-color: #FAF3E0;
+  }
+  header h1 {
+    margin: 0;
+    font-size: 2.5rem;
+  }
+  header p {
+    font-size: 1.1rem;
+    margin-top: 0.5rem;
+  }
+  
+  /* Cards */
+  .card {
+    background: white;
+    margin: 1.5rem auto;
+    padding: 1.5rem;
+    border-radius: 10px;
+    width: 80%;
+    box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+  }
+  
+  h2 {
+    color: #F5B041;
+  }
+  
