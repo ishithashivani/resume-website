@@ -84,4 +84,29 @@
   a:hover {
     text-decoration: underline;
   }
+  .profile-pic-section {
+    text-align: center;
+    margin: 3rem 0;
+  }
   
+  .profile-pic {
+    width: 180px;
+    height: 180px;
+    border-radius: 50%;
+    object-fit: cover;
+    border: 3px solid #d4af37; /* Gold */
+    box-shadow: 0 8px 20px rgba(0, 0, 0, 0.25);
+    transition: transform 0.3s ease;
+  }
+  
+  .profile-pic:hover {
+    transform: scale(1.05);
+  }
+  
+  .profile-intro {
+    font-size: 1rem;
+    font-style: italic;
+    margin-top: 1rem;
+    color: #6e6e6e;
+  }
+    
